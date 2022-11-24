@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+.bgColorTrue{
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+.bgColorFalse{
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+}
+/* .appbar{
+	height: 50px;
+} */
+.MuiBox-root.css-2uchni{
+	padding-left: 15px;
+}
+p.MuiTypography-root.MuiTypography-body1.css-s7m92n-MuiTypography-root{
+	position: relative;
+    left: -20px;
+}

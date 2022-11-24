@@ -1,0 +1,46 @@
+.homezoomimg:hover {
+  transform: scale(1.2);
+  /* transition-all hover:ease-in duration-300 */
+  /* transition: all 0.2s ease-in-out; */
+  /* transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  transition-timing-function: all 0.2s ease-in-out; */
+}
+.zoomh4 {
+  color: #455a64;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.zoomSubtitle {
+  color: #455a64;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.smallText {
+  font-size: 80%;
+  font-weight: 400;
+  color: #455a64;
+}
+.getNow {
+  background-image: linear-gradient(to left, #ffa6b2, #8616a5);
+  line-height: 0;
+  padding: 24px 22px;
+  font-size: 14px;
+  font-family: cursive;
+  visibility: hidden;  
+  opacity: 0;
+  transition: all 0.2s;
+  position: relative;
+    top: -309px;
+    left: -4px;
+}
+.showHide:hover + .getNow {
+  visibility: visible; 
+  opacity: 1;
+}
+.getNow:hover {
+  visibility: visible; 
+  opacity: 1;
+  padding: 22px 24px;
+  font-size: 15px;
+}
+
